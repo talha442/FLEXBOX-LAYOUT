@@ -1,0 +1,141 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.outter {
+    border: 5px #73A8BF solid;
+}
+
+.inner {
+    display: flex;
+    border: 5px #FFBB94 solid;
+    justify-content: space-between;
+    color: white;
+}
+
+span {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.logo {
+    margin: 30px;
+}
+
+.logo span {
+    background-color: #8E99F3;
+    padding: 10px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.left .product span {
+    background-color: #FF867C;
+    padding: 10px;
+}
+
+.left .item span {
+    background-color: #80D6FF;
+    padding: 10px;
+}
+
+.main {
+    border: 5px #73A8BF solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    border: 2px #73A8BF solid;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.main .content .box1,
+.box2 {
+    border: 6px #73A8BF solid;
+    display: flex;
+    margin: 20px;
+}
+
+.main .content .box2 {
+    flex-direction: row-reverse;
+}
+
+.main img {
+    display: flex;
+}
+
+.main h4 {
+    position: relative;
+    top: -15px;
+}
+
+.main .box1 p {
+    position: relative;
+    top: 10px;
+    left: -31px;
+}
+
+.main .box2 p {
+    position: relative;
+    top: 10px;
+    left: 43px;
+}
+
+.box1,
+.box2 {
+    flex-direction: row;
+}
+
+.sidecontent {
+    border-left: 8px #73A8BF solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.sidecontent span {
+    background-color: #80D6FF;
+    color: white;
+    font-size: 15px;
+    margin: 30px;
+    margin-left: 35px;
+    text-align: center;
+    display: flex;
+}
+
+.footer {
+    border: 4px #73A8BF solid;
+    border-bottom: 10px #73A8BF solid;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    text-align: center;
+}
+
+.footer .contact {
+    background-color: #FF867C;
+    color: white;
+    width: 34%;
+}
+
+.footer .careers {
+    background-color: #80D6FF;
+    color: white;
+    width: 34%;
+}
+
+.footer .about {
+    background-color: #98EE99;
+    color: white;
+    width: 34%;
+}
